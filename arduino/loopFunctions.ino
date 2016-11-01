@@ -1,6 +1,7 @@
 SENS readSensors() {
   SENS temp;
 
+  // These are temporary values, but needs to be changed to actual sensor readings
   temp.pressure = 3024;
   temp.temp = 18.3;
   temp.volt = 10.8;
