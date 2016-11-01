@@ -1,6 +1,7 @@
 #NTNU ROV
 
-Open source ROV project by master students at NTNU for high school students
+Open source ROV project by students at IPM NTNU for maker fair trondheim and high school students
+Group 1
 
 ##Arduino
  - Reading sensors and moving actuators (motors, led etc.)
