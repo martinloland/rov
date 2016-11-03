@@ -16,11 +16,10 @@ SENS readSensors() {
 }
 
 ACT communicate(SENS sens, ACT temp) {
-
-  char inData[100]; // Allocate some space for the string
-  char inChar; // Where to store the character read
-  byte index = 0; // Index into array; where to store the character
   if (Serial.available() > 0) {
+    char inData[100]; // Allocate some space for the string
+    char inChar; // Where to store the character read
+    byte index = 0; // Index into array; where to store the character
     // Read in a whole string
     while (Serial.available() > 0) {
       inChar = Serial.read(); // Read a character
