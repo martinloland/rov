@@ -1,11 +1,13 @@
 #define FALSE 0
 #define TRUE 1
+#define NO 0
+#define YES 1
 #define OFF 0
 #define ON 1
 
 // Pins
-//const int panPin;
-//const int tiltPin;
+// Pin 2 is already used bu MPU
+#define PAN_PIN 9
 
 // Structures
 typedef struct MOT{
@@ -27,8 +29,8 @@ typedef struct GYR{
 
 typedef struct ACT{
 	int led; // 0-1
-	int pan; // 0-180
-	int tilt; // 0-180
+	int pan; // 0-179
+	int tilt; // 0-179
 	MOT mot;
 }ACT;
 
@@ -36,5 +38,6 @@ typedef struct SENS{
 	float pressure;
 	float temp;
 	float volt;
+	float curr;
 	GYR gyr;
 }SENS;
