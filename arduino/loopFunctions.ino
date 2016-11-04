@@ -16,6 +16,7 @@ SENS readSensors() {
 }
 
 ACT communicate(SENS sens, ACT temp) {
+  // Serial will come in the format: 'ACT,led:1,pan:120,tilt:43,lf:0,rf:0,lb:100,rb:110'
   if (Serial.available() > 0) {
     char inData[100]; // Allocate some space for the string
     char inChar; // Where to store the character read
