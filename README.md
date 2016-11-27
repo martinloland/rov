@@ -31,8 +31,9 @@ Open source ROV project by students at IPM NTNU for Trondheim Makers and high sc
 ## Raspberry Pi
  - Tested on rpi 2 and 3
  - Assuming fresh installation of raspbian and basic knowledge of rpi/linux
- - sudo raspi-config -> expand filesystem, enable camera, enable ssh
+ - "sudo raspi-config" -> expand filesystem, enable camera, enable ssh
  - Update and upgrade -> https://www.raspberrypi.org/documentation/raspbian/updating.md
- - Install pip -> sudo apt-get install python-pip
- - Install picamera -> sudo apt-get install python-picamera
-   sudo pip install picamera
+ - Install pip -> "sudo apt-get install python-pip"
+ - Install picamera -> "sudo apt-get install python-picamera" & "sudo pip install picamera"
+ - Install serial -> "python -m pip install pyserial"
+ - If no errors during this process the rpi should be able to run the code
