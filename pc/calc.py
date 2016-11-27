@@ -62,7 +62,7 @@ def getXY(i, j, horJust, verJust, width, height):
 		cor[0] = int(faceWidth*i-width/2)
 	elif horJust == r:
 		cor[0] = int(faceWidth*i-width)
-	#y
+	# Y
 	cor.append(None)
 	if verJust == t:
 		cor[1] = int(faceHeight*j)
