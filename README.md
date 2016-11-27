@@ -37,3 +37,8 @@ Open source ROV project by students at IPM NTNU for Trondheim Makers and high sc
  - Install picamera -> "sudo apt-get install python-picamera" & "sudo pip install picamera"
  - Install serial -> "python -m pip install pyserial"
  - If no errors during this process the rpi should be able to run the code
+ 
+ ## Computer
+ - Tested on windows 10
+ - Install python 2.7.X -> https://www.python.org/downloads/
+ - Install pygame -> http://pygame.org/
