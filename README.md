@@ -25,3 +25,8 @@ Open source ROV project by students at IPM NTNU for Trondheim Makers and high sc
  - Program to receive sensor and camera feed
  - Displaying UI with updated data
  - Taking user input and changing actuators accordingly
+
+#Installation
+
+## Raspberry Pi
+- Fresh installation of 
