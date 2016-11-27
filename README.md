@@ -27,7 +27,7 @@ Open source ROV project by students at IPM NTNU for Trondheim Makers and high sc
  - Taking user input and changing actuators accordingly
 
 #Installation
-Tekst her
+Tested on arduino nano version 3, raspberry pi 2 & 3, windows 10.
 
 ## Raspberry Pi
  - Tested on rpi 2 and 3
