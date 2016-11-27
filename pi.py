@@ -12,12 +12,11 @@ execfile(os.path.join('pi', 'func.py'))
 execfile('common.py')
 
 if __name__ == "__main__":
-	# local: '10.0.0.111'
-	# direct: '169.254.195.12'
-	s1 = SOCKET('10.0.0.111', 8000, 'wb')
-	s2 = SOCKET('10.0.0.111', 9000, 'wb')
+	computerIP = '169.255.255.255' #Needs to be changed to your IP
+	s1 = SOCKET(computerIP, 8000, 'wb')
+	s2 = SOCKET(computerIP, 9000, 'wb')
 	s3 = socket.socket()
-	s3.connect(('10.0.0.111', 9500))
+	s3.connect((computerIP, 9500))
 
 	ser0 = createSerial('/dev/ttyUSB0')
 	print('Connected to : ' + ser0.name)
