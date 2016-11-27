@@ -27,6 +27,7 @@ Open source ROV project by students at IPM NTNU for Trondheim Makers and high sc
  - Taking user input and changing actuators accordingly
 
 #Installation
+Tekst her
 
 ## Raspberry Pi
  - Tested on rpi 2 and 3
