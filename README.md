@@ -29,4 +29,10 @@ Open source ROV project by students at IPM NTNU for Trondheim Makers and high sc
 #Installation
 
 ## Raspberry Pi
-- Fresh installation of 
+ - Tested on rpi 2 and 3
+ - Assuming fresh installation of raspbian and basic knowledge of rpi/linux
+ - sudo raspi-config -> expand filesystem, enable camera, enable ssh
+ - Update and upgrade -> https://www.raspberrypi.org/documentation/raspbian/updating.md
+ - Install pip -> sudo apt-get install python-pip
+ - Install picamera -> sudo apt-get install python-picamera
+   sudo pip install picamera
